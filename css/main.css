@@ -173,30 +173,32 @@ main > h1	{
 	align-self: flex-end;
 	width: 100%;
 	max-width: 380px;
-	margin: 3px;
+	margin: 5px;
 	text-align: center;
 }
 
-input	{
+#button	{
 	background: rgb(60,0,0);
 	color: #fff;
-	margin: 5px auto;
+	margin: 8px auto;
 	padding: 10px 20px;
+	width: 100%;
+	max-width: 250px;
 	border: none;
 	border: 1px solid black;
 	transition: all .4s;
 }
 
-input:hover,
-input:focus,
-input:active	{
+#button:hover,
+#button:focus,
+#button:active	{
 	cursor: pointer;
 	background: #fff;
 	color: #000;
 	transform: scale(1.05);
 }
 
-#projects ul li a img	{
+.p-img	{
 	width: 100%;
 	max-width: 250px;
 	margin: 0 auto;

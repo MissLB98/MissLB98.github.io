@@ -4,6 +4,13 @@
 		<title>LeahB | Front-End Developer</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="js/vex/js/vex.combined.min.js"></script>
+		<script>vex.defaultOptions.className = 'vex-theme-os'</script>
+		
+		<link rel="stylesheet" href="js/vex/css/vex.css">
+		<link rel="stylesheet" href="js/vex/css/vex-theme-os.css">
+		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -24,14 +31,19 @@
 		
 			<nav>
 				<ul>
-					<a href="#about"><li>About</li></a>
+					<a href="#main"><li>About</li></a>
 					<a href="#p-name"><li>Projects</li></a>
 					<a href="#contact"><li>Contact</li></a>
 				</ul>
 			</nav>
 		</header>
 		
-		<main>
+		<main id="main">
+			<div class="freelance-info">
+				<p>I am currently available for hire :D</p>
+				<p>For freelance work, please contact me with the details at the bottom to negotiate.</p>
+			</div>
+			
 			<div id="about">
 				<div>
 					<h1>BIO</h1>
@@ -71,10 +83,6 @@
 		</main>
 		
 		<footer>
-			<div class="freelance-info">
-				<p>I am currently available for hire.</p>
-				<p>For freelance work, please contact me with the details below to negotiate.</p>
-			</div>
 			
 			<div class="f-container">
 				<div id="contact">
