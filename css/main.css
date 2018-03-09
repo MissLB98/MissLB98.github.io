@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Unica+One');
+
+/*----- BASE STYLES -----*/
+
+*	{
+	box-sizing: border-box;
+}
+
+body	{
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1.5;
+	font-family: 'Unica One', sans-serif;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+h1	{
+	text-align: center;
+}
+
+a	{
+	color: rgba(130,30,0, 1);
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active	{
+	color: rgb(255,69,0);
+}
+
+
+
+/*----- HEADER -----*/
+
+header	{
+	background-image: url('../img/background2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#avatar	{
+	width: 100%;
+	max-width: 170px;
+	display: block;
+	padding: 6px;
+	margin: 20px auto;
+	border-radius: 50%;
+	background: #fff;
+	transition: max-width .3s;
+}
+
+header div	{
+	background-color: rgba(0,0,0, .3);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.name	{
+	border-bottom: 2px solid #fff;
+	padding-bottom: 30px;
+	width: 100%;
+	max-width: 240px;
+	margin: 0 auto;
+}
+
+.name,
+.job-title	{
+	font-family: 'Poiret One', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+
+
+/*----- MAIN NAV -----*/
+
+nav	{
+	margin: auto;
+}
+
+nav ul	{
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+nav ul a	{
+	padding: .5em .8em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba(60,0,0, .75);
+	transition: all .4s;
+}
+
+nav ul a:hover,
+nav ul a:focus,
+nav ul a:active	{
+	background: rgba(130,30,0, 1);
+	color: #fff;
+}
+
+
+/*----- ABOUT -----*/
+
+#about	{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.ethos	{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	border-radius: 6px;
+	font-size: 1.3em;
+}
+
+#about div	{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.skills	{
+	background: #8ef;
+}
+
+.skills ul	{
+	list-style: none;
+}
+
+
+/*----- PROJECTS -----*/
+
+main > h1	{
+	padding-top: 60px;
+}
+
+#projects ul	{
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#projects ul li	{
+	flex: 1 280px;
+	align-self: flex-end;
+	width: 100%;
+	max-width: 380px;
+	margin: 3px;
+	text-align: center;
+}
+
+input	{
+	background: rgb(60,0,0);
+	color: #fff;
+	margin: 5px auto;
+	padding: 10px 20px;
+	border: none;
+	border: 1px solid black;
+}
+
+input:hover,
+input:focus,
+input:active	{
+	cursor: pointer;
+	background: rgb(130,30,0);
+}
+
+#projects ul li a img	{
+	width: 100%;
+	max-width: 250px;
+	margin: 0 auto;
+	padding: 8px;
+	background-color: #fff;
+}
+
+#p-name	{
+	margin-bottom: 0;
+}
+
+
+
+/*----- FOOTER -----*/
+
+footer	{
+	background: #000;
+	color: #fff;
+	margin: 60px auto 0 auto;
+}
+
+.freelance-info	{
+	background: #235;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.freelance-info p	{
+	color: #fff;
+	width: 100%;
+	max-width: 1000px;
+	margin: 5px auto;
+	text-align: center;
+}
+
+.f-container	{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	padding: 10px 15px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.copyright	{
+	font-size: 2em;
+}
+
+.s-media	{
+	align-self: flex-end;
+	background: #fff;
+	color: #000;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.s-media p	{
+	margin: 0;
+}
+
+.s-media img	{
+	width: 63px;
+	margin: 20px;
+}
+
+
+/*----- CONTACT -----*/
+
+
+#contact	{
+	margin: 10px auto;
+}
+
+#contact ul	{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: left;
+	list-style: none;
+}
+
+
+/*----- MEDIA QUERIES -----*/
+
+@media (min-width: 550px)	{
+	
+	#avatar	{
+		max-width: 250px;
+	}
+	
+	nav ul a	{
+		margin: 0 1.2em;
+		padding: 1em;
+		font-size: 1.2em;
+	}
+	
+	
+	/*ABOUT*/
+	
+	#about	{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-width: 1200px;
+	}
+	
+	#about div	{
+		flex: 1;
+		max-width: 420px;
+	}
+}

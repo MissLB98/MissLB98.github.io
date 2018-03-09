@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Project 4</title>
+		<meta name=viewport content="width=device-width, initial-scale= 1.0">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
+		<link rel="stylesheet" href="js/lightbox/css/lightbox.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			
+		<header>	
+			<h1 id="header" class="heading">PHOTO GALLERY</h1>
+			<form action="index.html" class="filterform">	
+				<input class="filterinput" type="text" id="search-box" name="search" placeholder="Search photos..."/>
+			</form>
+		</header>
+			
+			<main>
+				<div class="instruction"><p>You may use these keywords to search for photos if you'd like: <i>'hay bales', 'lake', 'canyon', 'iceberg', 'desert', 'fall', 'plantation', 'dunes', 'countryside lane', 'sunset', 'cave', 'bluebells'</i>.</p></div>
+			
+				<ul id="list" class="wrapper clearfix">
+					<li>
+						<a href="photos/01.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Hay Bales</h1> 
+						<p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p></span>">
+						<img class="slide" src="photos/thumbnails/01.jpg" alt="#"></a>
+					</li><!-- Thumbnail 1 -->
+					
+					<li>
+						<a href="photos/02.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Lake</h1> 
+						<p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p></span>">
+						<img class="slide" src="photos/thumbnails/02.jpg" alt="#"></a>
+					</li><!-- Thumbnail 2 -->
+					
+					<li>
+						<a href="photos/03.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Canyon</h1> 
+						<p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p></span>">
+						<img class="slide" src="photos/thumbnails/03.jpg" alt="#"></a>
+					</li><!-- Thumbnail 3 -->
+					
+					<li>
+						<a href="photos/04.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Iceberg</h1> 
+						<p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p></span>">
+						<img class="slide" src="photos/thumbnails/04.jpg" alt="#"></a>
+					</li><!-- Thumbnail 4 -->
+					
+					<li>
+						<a href="photos/05.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Desert</h1> 
+						<p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p></span>">
+						<img class="slide" src="photos/thumbnails/05.jpg" alt="#"></a>
+					</li><!-- Thumbnail 5 -->
+					
+					<li>
+						<a href="photos/06.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Fall</h1> 
+						<p>Fall is coming, I love when the leaves on the trees start to change color.</p></span>">
+						<img class="slide" src="photos/thumbnails/06.jpg" alt="#"></a>
+					</li><!-- Thumbnail 6 -->
+					
+					<li>
+						<a href="photos/07.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Plantation</h1> 
+						<p>I drove past this plantation yesterday, everything is so green!</p></span>">
+						<img class="slide" src="photos/thumbnails/07.jpg" alt="#"></a>
+					</li><!-- Thumbnail 7 -->
+					
+					<li>
+						<a href="photos/08.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Dunes</h1> 
+						<p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p></span>">
+						<img class="slide" src="photos/thumbnails/08.jpg" alt="#"></a>
+					</li><!-- Thumbnail 8 -->
+					
+					<li>
+						<a href="photos/09.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Countryside Lane</h1> 
+						<p>We enjoyed a quiet stroll down this countryside lane.</p></span>">
+						<img class="slide" src="photos/thumbnails/09.jpg" alt="#"></a>
+					</li><!-- Thumbnail 9 -->
+					
+					<li>
+						<a href="photos/10.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Sunset</h1> 
+						<p>Sunset at the coast! The sky turned a lovely shade of orange.</p></span>">
+						<img class="slide" src="photos/thumbnails/10.jpg" alt="#"></a>
+					</li><!-- Thumbnail 10 -->
+					
+					<li>
+						<a href="photos/11.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Cave</h1> 
+						<p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p></span>">
+						<img class="slide" src="photos/thumbnails/11.jpg" alt="#"></a>
+					</li><!-- Thumbnail 11 -->
+					
+					<li>
+						<a href="photos/12.jpg" data-lightbox="pics" data-title="<span class='lightbox-caption'><h1>Bluebells.</h1> 
+						<p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p></span>">
+						<img class="slide" src="photos/thumbnails/12.jpg" alt="#"></a>
+					</li><!-- Thumbnail 12 -->
+				</ul>
+				<div class="instruction"><p>The search block searches for words that are in the caption of the lightbox.</p></div>
+				<hr/>
+			</main>
+			</div>
+		<footer>
+			<p class="copyright"> <b>Leah Birch, </b>2017&copy;</p>
+		</footer>
+		
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/lightbox/js/lightbox-plus-jquery.min.js"></script>
+		
+		<script>
+		
+		//LIGHTBOX
+		
+			lightbox.option({
+			'alwaysShowNavOnTouchDevices': true,
+			'resizeDuration': 200,
+			'wrapAround': true,
+			'showImageNumberLabel': false,
+			'positionFromTop': 25
+			});
+			
+		//CUSTOM SEARCH BOX
+			
+			
+			//Store the user input in a variable. The 'keyup' will check for text entered into the search box.
+				$("#search-box").change().keyup( function() {
+					var search = $(this).val().toUpperCase();
+					
+					//Store the caption text in a variable.
+					$('#list li').each(function() {
+						$(this).find('a').attr('data-lightbox', 'pics');
+						var $Caption = $(this).find('a').attr('data-title');
+						
+						//Compare the caption and the user input.
+						if($Caption.toUpperCase().includes(search))	{
+							$(this).show();
+						} else	{
+							$(this).hide().find('a').removeAttr('data-lightbox');
+						}
+					});
+				});
+			
+			/*I find that by pressing the enter key, the search results disappear. 
+			So I write this alert for the users not to do that.*/
+			$('#search-box').on('click', function() {
+				alert('Please do not click the "enter" key after typing your keywords. Instead you can click on the blank space anywhere on the viewport. Thank you.');
+			});
+		</script>
+	</body>
+</html>
