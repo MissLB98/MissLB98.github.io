@@ -184,13 +184,16 @@ input	{
 	padding: 10px 20px;
 	border: none;
 	border: 1px solid black;
+	transition: all .4s;
 }
 
 input:hover,
 input:focus,
 input:active	{
 	cursor: pointer;
-	background: rgb(130,30,0);
+	background: #fff;
+	color: #000;
+	transform: scale(1.05);
 }
 
 #projects ul li a img	{
@@ -279,7 +282,7 @@ footer	{
 
 /*----- MEDIA QUERIES -----*/
 
-@media (min-width: 550px)	{
+@media (min-width: 560px)	{
 	
 	#avatar	{
 		max-width: 250px;
@@ -303,6 +306,6 @@ footer	{
 	
 	#about div	{
 		flex: 1;
-		max-width: 420px;
+		max-width: 400px;
 	}
 }
