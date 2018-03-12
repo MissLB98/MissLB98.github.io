@@ -4,7 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Project 4</title>
-		<meta name=viewport content="width=device-width, initial-scale= 1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
 		<link rel="stylesheet" href="js/lightbox/css/lightbox.min.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -104,8 +105,11 @@
 			<p class="copyright"> <b>Leah Birch, </b>2017&copy;</p>
 		</footer>
 		
-		<script src="js/jquery-1.12.4.min.js"></script>
-		<script src="js/lightbox/js/lightbox-plus-jquery.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+		<script src="js/lightbox/js/lightbox.min.js"></script>
 		
 		<script>
 		
@@ -140,9 +144,10 @@
 					});
 				});
 			
-			/*I find that by pressing the enter key, the search results disappear. 
+			/*I find that by pressing the enter key, the search results disappear. preventdefault() does not work.
 			So I write this alert for the users not to do that.*/
-			$('#search-box').on('click', function() {
+			
+			$('#search-box').click(function(e) {
 				alert('Please do not click the "enter" key after typing your keywords. Instead you can click on the blank space anywhere on the viewport. Thank you.');
 			});
 		</script>
