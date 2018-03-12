@@ -176,7 +176,7 @@ lightbox.option({
 const footer = document.getElementById('footer');
 let footerHTML = `
 <div>
-	<i>The logo at the top is made by <a href="#" target="_blank">Leah M. Birch</a>, the Front-end Developer responsible for this website. Other icons were made by
+	<i>The logo at the top is made by <a href="misslb98.github.io" target="_blank">Leah M. Birch</a>, the Front-end Developer responsible for this website. Other icons were made by
 	
 	<a href="http://www.freepik.com" target="_blank" title="Freepik">Freepik</a> 
 	
