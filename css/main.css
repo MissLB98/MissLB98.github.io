@@ -256,7 +256,8 @@ main > h1	{
 	transition: all .4s;
 }
 
-.vex.vex-theme-os .vex-content h1, .vex .vex-theme-os .vex-content li	{
+.vex.vex-theme-os .vex-content h1, 
+.vex .vex-theme-os .vex-content li	{
 	color: #555;
 	line-height: 1.2;
 }
