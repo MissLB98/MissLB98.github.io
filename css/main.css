@@ -245,6 +245,10 @@ footer	{
 	justify-content: space-between;
 }
 
+.f-container div	{
+	align-self: center;
+}
+
 .copyright	{
 	font-size: 2em;
 }
@@ -280,6 +284,7 @@ footer	{
 	text-align: left;
 	list-style: none;
 }
+
 
 
 /*----- MEDIA QUERIES -----*/
