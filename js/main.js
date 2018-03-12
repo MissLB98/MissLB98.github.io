@@ -100,7 +100,7 @@ if ($('#projects ul li:last-child'))	{
 				<p>It consists of three pages. The home page has a pop up modal displaying timetables. I used css animations on a svg to make the logo.</p>
 				<p>I used Google Maps API to display the location of the Educare on the contact page. There is a link to download the enrolment.</p>
 				<p>The icons were made by <a href="http://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a>.</p>
-				<a href="projects/educare/index.html">Go to Project</a>
+				<a href="projects/educare/index.html" target="_blank">Go to Project</a>
 			</div>
 		` });
 	});
