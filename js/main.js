@@ -30,9 +30,9 @@ let HTML = '<ul>';
 
 for (let i = 0; i < data.length; i++)	{
 	HTML += '<li>';
-		HTML += '<a href="' + data[i].link + '" target="_blank">';
+		//HTML += '<a href="' + data[i].link + '" target="_blank">';
 			HTML += '<img class="p-img" src="' + data[i].img + '" alt="' + data[i].alt + '" />';
-		HTML += '</a>';
+		//HTML += '</a>';
 		HTML += '<div class="">';
 			HTML += '<button id="button" type="button">Project Info</button>';
 		HTML += '</div>';
@@ -42,7 +42,6 @@ for (let i = 0; i < data.length; i++)	{
 HTML += '</ul>';
 
 $('#projects').html(HTML);
-
 
 
 //button functionality
