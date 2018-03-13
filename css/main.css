@@ -254,16 +254,17 @@ main > h1	{
 .vex.vex-theme-os .vex-dialog-button.vex-dialog-button-primary,
 .modal-popup p > a[href*="projects"]	{
 	font-family: 'Unica One', sans-serif;
-	font-size: 1.3rem;
+	font-size: 1.35rem;
 	color: #fff;
-	padding: 6px 15px;
+	padding: 8px 15px;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
-	max-width: 159px;
+	max-width: 170px;
 	display: block;
 	background: rgb(60,0,0);
 	border: none;
+	line-height: 1.4;
 	transition: all .4s;
 }
 
@@ -271,7 +272,7 @@ main > h1	{
 	background: #fff;
 	border: 1px solid #000;
 	color: #000;
-	transform: scale(1.05);
+	transform: scale(1.03);
 }
 
 .modal-popup p > a[href*="projects"]:hover,
@@ -280,7 +281,7 @@ main > h1	{
 	background: #fff;
 	border: 1px solid #000;
 	color: #000;
-	transform: scale(1.05);
+	transform: scale(1.03);
 }
 
 .vex.vex-theme-os .vex-content h1, 
