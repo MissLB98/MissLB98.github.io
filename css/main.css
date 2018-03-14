@@ -133,15 +133,20 @@ nav ul a:active	{
 .freelance-info	{
 	background: #235;
 	margin: 0 auto;
-	padding: 10px;
 }
 
 .freelance-info p	{
 	color: #fff;
 	width: 100%;
 	max-width: 1000px;
-	margin: 5px auto;
+	margin: 0 auto;
+	padding: 10px;
 	text-align: center;
+}
+
+.freelance-info p:first-child	{
+	background: #000;
+	max-width: 320px;
 }
 
 .ethos	{
@@ -219,12 +224,12 @@ main > h1	{
 #img-overlay	{
 	position: absolute;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 15px;
 	width: 100%;
 	height: 100%;
 	left: 0;
 	top: 0;
-	color: #8aa;
+	color: #fff;
 	letter-spacing: 2px;
 	display: flex;
 	flex-direction: column;
@@ -395,6 +400,30 @@ footer	{
 	list-style: none;
 }
 
+
+/*----- TO TOP ARROW -----*/
+
+.to-top	{
+	position: relative;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.to-top span	{
+	background-color: #333;
+	position: fixed;
+	right: 80%;
+	bottom: 0;
+	text-align: center;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 8px;
+}
 
 
 /*----- MEDIA QUERIES -----*/

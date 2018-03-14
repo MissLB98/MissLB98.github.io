@@ -43,7 +43,7 @@ for (let i = 0; i < data.length; i++)	{
 			HTML += '</div>';
 		HTML += '</a>';
 		HTML += '<div>';
-			HTML += '<button id="button" type="button">Project Info</button>';
+			HTML += '<button id="button" type="button">Project Information</button>';
 		HTML += '</div>';
 	HTML += '</li>';
 }
@@ -98,8 +98,8 @@ if ($('#projects ul li:nth-child(3)'))	{
 	});
 }
 
-if ($('#projects ul li:last-child'))	{
-	$('#projects ul li:last-child #button').click(() => {
+if ($('#projects ul li:nth-child(4)'))	{
+	$('#projects ul li:nth-child(4) #button').click(() => {
 		vex.dialog.alert({ unsafeMessage: `
 			<div class="modal-popup">
 				<h1>Little Sunbeams Educare</h1>
