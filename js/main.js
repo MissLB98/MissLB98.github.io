@@ -3,37 +3,46 @@
 //project data
 const data = [
 	{
+		name: "Employee Directory",
 		alt: "Project: Employee Directory",
 		link: "projects/employeeDirectory/index.html",
 		img: "img/logo3.png",
 	},
 	{
+		name: "Interactive Media Player",
 		alt: "Project: Interactive Media Player",
 		link: "projects/mediaPlayer/index.html",
 		img: "img/logo2.png",
 	},
 	{
+		name: "Lightbox Photo Gallery",
 		alt: "Project: Lightbox Photo Gallery",
 		link: "projects/photoGallery/index.html",
 		img: "img/logo4.png",
 	},
 	{
+		name: "Educare",
 		alt: "Project: Educare",
 		link: "projects/educare/index.html",
 		img: "img/logo1.png",
 	},	
 ];
 
-
 //building the project html
 let HTML = '<ul>';
 
 for (let i = 0; i < data.length; i++)	{
 	HTML += '<li>';
-		//HTML += '<a href="' + data[i].link + '" target="_blank">';
-			HTML += '<img class="p-img" src="' + data[i].img + '" alt="' + data[i].alt + '" />';
-		//HTML += '</a>';
-		HTML += '<div class="">';
+		HTML += '<a href="' + data[i].link + '" target="_blank">';
+			HTML += '<div class="overlay-cont">';
+				HTML += '<div id="img-overlay">';
+					HTML += '<h1>' + data[i].name + '</h1>' + 
+					'<h2>Go to Project</h2>';
+				HTML += '</div>';
+				HTML += '<img class="p-img" src="' + data[i].img + '" alt="' + data[i].alt + '" />';
+			HTML += '</div>';
+		HTML += '</a>';
+		HTML += '<div>';
 			HTML += '<button id="button" type="button">Project Info</button>';
 		HTML += '</div>';
 	HTML += '</li>';
@@ -41,11 +50,10 @@ for (let i = 0; i < data.length; i++)	{
 
 HTML += '</ul>';
 
+//insert html into DOM
 $('#projects').html(HTML);
 
-
 //button functionality
-
 if ($('#projects ul li:first-child')) {
 	$('#projects ul li:first-child #button').click(() => {
 		vex.dialog.alert({ unsafeMessage: `
@@ -96,7 +104,7 @@ if ($('#projects ul li:last-child'))	{
 			<div class="modal-popup">
 				<h1>Little Sunbeams Educare</h1>
 				<p>This is a Website I made for Theresa Jacobs who is starting an Educare center in 2019.</p>
-				<p>It consists of three pages. The home page has a pop up modal displaying timetables. I used css animations on a svg to make the logo.</p>
+				<p>It consists of three pages. The home page has a pop up modal displaying timetables for each age group. I used css animations on a svg to make the logo.</p>
 				<p>I used Google Maps API to display the location of the Educare on the contact page. There is a link to download the enrolment.</p>
 				<p>The icons were made by <a href="http://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a>.</p>
 				<p><a href="projects/educare/index.html" target="_blank">Go see Project</a></p>
@@ -104,4 +112,15 @@ if ($('#projects ul li:last-child'))	{
 		` });
 	});
 }
+
+
+
+
+
+
+
+
+
+
+
 
