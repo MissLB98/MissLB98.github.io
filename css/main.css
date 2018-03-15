@@ -365,13 +365,12 @@ footer	{
 /*** CITY BACKGROUND ***/
 
 .city-background	{
-	background-image: url('../img/city-background.jpg'),
-					linear-gradient(to bottom, rgba(0,0,0, .7), rgba(20,20,20, .7));
+	background-image: url('../img/city-background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 40% 20%;
 	height: 120px;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	width: 100%;
 }
