@@ -241,10 +241,15 @@ main > h1	{
 }
 
 #img-overlay h1	{
+	font-size: 1.5em;
+}
+
+#img-overlay h2	{
 	border-top: 1px solid #fff;
 	padding-top: 20px;
 	margin: 0;
 	width: 100%;
+	font-size: 2em;
 }
 
 #projects ul li a:hover #img-overlay,
@@ -283,7 +288,7 @@ main > h1	{
 /*Vex MODAL POPUP*/
 
 .vex.vex-theme-os	{
-	padding-top: 30px;
+	padding: auto;
 }
 
 .modal-popup	{
