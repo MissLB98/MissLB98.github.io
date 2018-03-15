@@ -366,6 +366,9 @@ footer	{
 	background-repeat: no-repeat;
 	background-position: 40% 20%;
 	height: 120px;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
 }
 
 /************/
