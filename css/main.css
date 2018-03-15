@@ -413,11 +413,11 @@ footer	{
 /*----- CONTACT -----*/
 
 
-#contact	{
+.contact	{
 	margin: 10px auto;
 }
 
-#contact ul	{
+.contact ul	{
 	margin: 0 auto;
 	padding: 5px;
 	text-align: left;
