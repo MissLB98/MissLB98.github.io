@@ -36,8 +36,7 @@ for (let i = 0; i < data.length; i++)	{
 		HTML += '<a href="' + data[i].link + '" target="_blank">';
 			HTML += '<div class="overlay-cont">';
 				HTML += '<div id="img-overlay">';
-					HTML += '<h1>' + data[i].name + '</h1>' + 
-					'<h2>Go to Project</h2>';
+					HTML += '<h2>Go to Project</h2>' + '<h1>' + data[i].name + '</h1>';
 				HTML += '</div>';
 				HTML += '<img class="p-img" src="' + data[i].img + '" alt="' + data[i].alt + '" />';
 			HTML += '</div>';
