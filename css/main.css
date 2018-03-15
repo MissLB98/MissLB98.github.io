@@ -357,6 +357,19 @@ footer	{
 	margin: 60px auto 0 auto;
 }
 
+/*** CITY BACKGROUND ***/
+
+.city-background	{
+	background-image: url('../img/city-background.jpg'),
+					linear-gradient(to bottom, rgba(0,0,0, .7), rgba(20,20,20, .7));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 30% 20%;
+	height: 150px;
+}
+
+/************/
+
 .f-container	{
 	margin: 0 auto;
 	width: 100%;
@@ -413,25 +426,26 @@ footer	{
 
 .to-top	{
 	position: relative;
-	height: 45px;
+	height: 70px;
 	margin: 0 auto;
 }
 
 .to-top span	{
 	background-color: #333;
 	position: fixed;
-	right: 80%;
+	right: 70%;
 	bottom: 0;
 	text-align: center;
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
 	font-family: sans-serif;
-	font-size: 2em;
+	font-size: 2.3rem;
 	font-weight: bold;
 	color: #fff;
-	margin-bottom: 8px;
+	margin: 8px;
 }
+
 
 
 /*----- MEDIA QUERIES -----*/
