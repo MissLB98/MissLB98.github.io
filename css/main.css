@@ -246,8 +246,9 @@ main > h1	{
 	margin: 0;
 }
 
-.overlay-cont:hover #img-overlay,
-.overlay-cont:focus #img-overlay	{
+#projects ul li a:hover #img-overlay,
+#projects ul li a:focus #img-overlay,
+#projects ul li a:active #img-overlay	{
 	visibility: visible;
 	background-color: rgba(0,0,0, .8);
 }
