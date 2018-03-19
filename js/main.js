@@ -11,7 +11,7 @@ const data = [
 	{
 		name: "Employee Directory",
 		alt: "Project: Employee Directory",
-		link: "projects/employeeDirectory/index.html",
+		link: "https://codepen.io/GoldBeat98/project/editor/DyLoza",
 		img: "img/logo3.png",
 	},
 	{
@@ -76,7 +76,7 @@ if ($('#projects ul li:nth-child(2)')) {
 				<h1>Employee Directory</h1>
 				<p>I used AJAX and the random user API json data to generate 12 random employees to make a directory showing their personal information.</p>
 				<p>If you click on one of the employees, a container pops up displaying more information about each employee.</p>
-				<p><a href="projects/employeeDirectory/index.html" target="_blank">Go see Project</a></p>
+				<p><a href="https://codepen.io/GoldBeat98/project/editor/DyLoza" target="_blank">Go see Project</a></p>
 			</div>
 		` });
 	});

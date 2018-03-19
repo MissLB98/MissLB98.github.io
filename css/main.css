@@ -305,7 +305,7 @@ main > h1	{
 }
 
 .vex.vex-theme-os .vex-dialog-button.vex-dialog-button-primary,
-.modal-popup p > a[href*="projects"]	{
+.modal-popup p > a[href*="project"]	{
 	font-family: 'Unica One', sans-serif;
 	font-size: 1.35rem;
 	color: #fff;
@@ -328,9 +328,9 @@ main > h1	{
 	transform: scale(1.03);
 }
 
-.modal-popup p > a[href*="projects"]:hover,
-.modal-popup p > a[href*="projects"]:focus,
-.modal-popup p > a[href*="projects"]:active	{
+.modal-popup p > a[href*="project"]:hover,
+.modal-popup p > a[href*="project"]:focus,
+.modal-popup p > a[href*="project"]:active	{
 	background: #fff;
 	border: 1px solid #000;
 	color: #000;
