@@ -11,7 +11,7 @@ const data = [
 	{
 		name: "Employee Directory",
 		alt: "Project: Employee Directory",
-		link: "https://codepen.io/GoldBeat98/project/editor/DyLoza",
+		link: "https://codepen.io/GoldBeat98/full/XENxeK",
 		img: "img/logo3.png",
 	},
 	{
@@ -63,7 +63,7 @@ if ($('#projects ul li:first-child'))	{
 				<p>It consists of three pages. The home page has a pop up modal displaying timetables for each age group. I used css animations on a svg to make the logo.</p>
 				<p>I used Google Maps API to display the location of the Educare on the contact page. There is a link to download the enrolment.</p>
 				<p>The icons were made by <a href="http://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a>.</p>
-				<p><a href="projects/educare/index.html" target="_blank">Go see Project</a></p>
+				<a href="projects/educare/index.html" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
@@ -76,7 +76,7 @@ if ($('#projects ul li:nth-child(2)')) {
 				<h1>Employee Directory</h1>
 				<p>I used AJAX and the random user API json data to generate 12 random employees to make a directory showing their personal information.</p>
 				<p>If you click on one of the employees, a container pops up displaying more information about each employee.</p>
-				<p><a href="https://codepen.io/GoldBeat98/project/editor/DyLoza" target="_blank">Go see Project</a></p>
+				<a href="https://codepen.io/GoldBeat98/full/XENxeK" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
@@ -92,7 +92,7 @@ if ($('#projects ul li:nth-child(3)'))	{
 				<p>To modify the controls of the video, I used mediaelement.js.</p>
 				<p>I used a for loop inside an event listener to listen for changes in the video so that the captions can automatically highlight itself in sinc with the video.</p>
 				<p>You can click on the captions to update the progress bar too.</p>
-				<p><a href="projects/mediaPlayer/index.html" target="_blank">Go see Project</a></p>
+				<a href="projects/mediaPlayer/index.html" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
@@ -107,7 +107,7 @@ if ($('#projects ul li:nth-child(4)'))	{
 				<p>You can navigate between photos with the left and right arrow keys or mouse.</p>
 				<p>I made a search box where the user input and caption texts are stored in variables. The each method and an if statement is used to compare the caption text and user input.</p>
 				<p>This will filter the photos depending on the input in the search box.</p>
-				<p><a href="projects/photoGallery/index.html" target="_blank">Go see Project</a></p>
+				<a href="projects/photoGallery/index.html" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
