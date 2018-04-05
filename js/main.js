@@ -35,7 +35,7 @@ const data = [
 ];
 
 //building the project html
-let HTML = '<ul>';
+let HTML = '<ul class="lightSlider">';
 
 for (let i = 0; i < data.length; i++)	{
 	HTML += '<li>';
@@ -136,6 +136,7 @@ if ($('#projects ul li:nth-child(5)'))	{
 }
 
 
+//lightSlider
 
 
 

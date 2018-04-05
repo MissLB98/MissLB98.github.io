@@ -462,7 +462,8 @@ footer	{
 
 /*----- MEDIA QUERIES -----*/
 
-@media (min-width: 560px)	{
+/*breakpoint for tablet displays*/
+@media (min-width: 600px)	{
 	
 	#avatar	{
 		max-width: 250px;
