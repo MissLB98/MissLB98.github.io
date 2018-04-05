@@ -25,7 +25,13 @@ const data = [
 		alt: "Project: Lightbox Photo Gallery",
 		link: "projects/photoGallery/index.html",
 		img: "img/logo4.png",
-	},	
+	},
+	{
+		name: "React Flickr Gallery",
+		alt:"Project: React Flickr Gallery",
+		link: "https://github.com/MissLB98/project-11",
+		img: "img/logo5.png",
+	}
 ];
 
 //building the project html
@@ -113,7 +119,21 @@ if ($('#projects ul li:nth-child(4)'))	{
 	});
 }
 
-
+if ($('#projects ul li:nth-child(5)'))	{
+	$('#projects ul li:nth-child(5) #button').click(() => {
+		vex.dialog.alert({ unsafeMessage: `
+			<div class="modal-popup">
+				<h1>React Photo Gallery</h1>
+				<p>This project uses the Flickr API to make a photo gallery. I've set up this project using the create-react-app.</p> 
+				<p>I've devided the main App component into smaller individual components. The projects has components made with the help of React Router.</p> 
+				<p>Specifically: I made a main search navigation, and a container where photos are taken to from the API.</p>
+				<p>I've made a loading indicator that displays each time the app fetches new data.</p>
+				<p>You will have to start the project using npm once you have downloaded it from github.</p>
+				<a href="https://github.com/MissLB98/project-11" target="_blank">Go see Project</a>
+			</div>
+		` });
+	});
+}
 
 
 

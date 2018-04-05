@@ -173,6 +173,14 @@ nav ul a:active	{
 }
 
 
+/*----- SERVICES -----*/
+
+/*
+	This section is for determining prices for
+	different types of websites
+*/
+
+
 /*----- PROJECTS -----*/
 
 main > h1	{
@@ -451,6 +459,7 @@ footer	{
 	font-weight: bold;
 	color: #fff;
 	margin: 8px;
+	z-index: 1000;
 }
 
 
