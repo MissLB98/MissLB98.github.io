@@ -58,8 +58,8 @@ HTML += '</ul>';
 //insert html into DOM
 $('#projects').html(HTML);
 
-//button functionality
 
+//button functionality
 if ($('#projects ul li:first-child'))	{
 	$('#projects ul li:first-child #button').click(() => {
 		vex.dialog.alert({ unsafeMessage: `
