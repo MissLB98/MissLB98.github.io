@@ -1,23 +1,23 @@
 //JS
 
-//project data
+//project data. Project links from github pages.pl
 const data = [
 	{
 		name: "Little Sunbeams Educare",
 		alt: "Project: Educare",
-		link: "projects/educare/index.html",
+		link: "https://misslb98.github.io/Educare/",
 		img: "img/logo1.png",
 	},
 	{
 		name: "Employee Directory",
 		alt: "Project: Employee Directory",
-		link: "https://codepen.io/GoldBeat98/full/XENxeK",
+		link: "https://misslb98.github.io/Project-10/",
 		img: "img/logo3.png",
 	},
 	{
 		name: "Interactive Media Player",
 		alt: "Project: Interactive Media Player",
-		link: "projects/mediaPlayer/index.html",
+		link: "https://misslb98.github.io/Project-7/",
 		img: "img/logo2.png",
 	},
 	{
@@ -69,7 +69,7 @@ if ($('#projects ul li:first-child'))	{
 				<p>It consists of three pages. The home page has a pop up modal displaying timetables for each age group. I used css animations on a svg to make the logo.</p>
 				<p>I used Google Maps API to display the location of the Educare on the contact page. There is a link to download the enrolment.</p>
 				<p>The icons were made by <a href="http://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a>.</p>
-				<a href="projects/educare/index.html" target="_blank">Go see Project</a>
+				<a href="https://misslb98.github.io/Educare/" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
@@ -82,7 +82,7 @@ if ($('#projects ul li:nth-child(2)')) {
 				<h1>Employee Directory</h1>
 				<p>I used AJAX and the random user API json data to generate 12 random employees to make a directory showing their personal information.</p>
 				<p>If you click on one of the employees, a container pops up displaying more information about each employee.</p>
-				<a href="https://codepen.io/GoldBeat98/full/XENxeK" target="_blank">Go see Project</a>
+				<a href="https://misslb98.github.io/Project-10/" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
@@ -98,7 +98,7 @@ if ($('#projects ul li:nth-child(3)'))	{
 				<p>To modify the controls of the video, I used mediaelement.js.</p>
 				<p>I used a for loop inside an event listener to listen for changes in the video so that the captions can automatically highlight itself in sinc with the video.</p>
 				<p>You can click on the captions to update the progress bar too.</p>
-				<a href="projects/mediaPlayer/index.html" target="_blank">Go see Project</a>
+				<a href="https://misslb98.github.io/Project-7/" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
