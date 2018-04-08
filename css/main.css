@@ -187,6 +187,10 @@ main > h1	{
 	padding-top: 60px;
 }
 
+#projects	{
+	padding: 20px 0 0 0;
+}
+
 #projects ul	{
 	width: 100%;
 	list-style: none;

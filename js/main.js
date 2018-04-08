@@ -35,7 +35,7 @@ const data = [
 ];
 
 //building the project html
-let HTML = '<ul class="lightSlider">';
+let HTML = '<ul id="lightSlider">';
 
 for (let i = 0; i < data.length; i++)	{
 	HTML += '<li>';
@@ -48,7 +48,7 @@ for (let i = 0; i < data.length; i++)	{
 			HTML += '</div>';
 		HTML += '</a>';
 		HTML += '<div>';
-			HTML += '<button id="button" type="button">Project Information</button>';
+			HTML += '<button id="button" type="button">More Info</button>';
 		HTML += '</div>';
 	HTML += '</li>';
 }
@@ -136,9 +136,13 @@ if ($('#projects ul li:nth-child(5)'))	{
 }
 
 
-//lightSlider
+/*lightSlider
 
-
+$("#lightSlider").lightSlider({
+	item: 2,
+	keyPress: true,
+	
+});*/
 
 
 
