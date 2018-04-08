@@ -23,7 +23,7 @@ const data = [
 	{
 		name: "Lightbox Photo Gallery",
 		alt: "Project: Lightbox Photo Gallery",
-		link: "projects/photoGallery/index.html",
+		link: "https://misslb98.github.io/Project4/",
 		img: "img/logo4.png",
 	},
 	{
@@ -113,7 +113,7 @@ if ($('#projects ul li:nth-child(4)'))	{
 				<p>You can navigate between photos with the left and right arrow keys or mouse.</p>
 				<p>I made a search box where the user input and caption texts are stored in variables. The each method and an if statement is used to compare the caption text and user input.</p>
 				<p>This will filter the photos depending on the input in the search box.</p>
-				<a href="projects/photoGallery/index.html" target="_blank">Go see Project</a>
+				<a href="https://misslb98.github.io/Project4/" target="_blank">Go see Project</a>
 			</div>
 		` });
 	});
