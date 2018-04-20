@@ -136,15 +136,6 @@ if ($('#projects ul li:nth-child(4)'))	{
 }*/
 
 
-/*lightSlider
-
-$("#lightSlider").lightSlider({
-	item: 2,
-	keyPress: true,
-	
-});*/
-
-
 
 
 
