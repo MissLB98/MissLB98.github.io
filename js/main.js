@@ -26,12 +26,12 @@ const data = [
 		link: "https://misslb98.github.io/Project4/",
 		img: "img/logo4.png",
 	},
-	{
+	/*{
 		name: "React Flickr Gallery",
 		alt:"Project: React Flickr Gallery",
 		link: "https://github.com/MissLB98/project-11",
 		img: "img/logo5.png",
-	}
+	},*/
 ];
 
 //building the project html
@@ -119,7 +119,7 @@ if ($('#projects ul li:nth-child(4)'))	{
 	});
 }
 
-if ($('#projects ul li:nth-child(5)'))	{
+/*if ($('#projects ul li:nth-child(5)'))	{
 	$('#projects ul li:nth-child(5) #button').click(() => {
 		vex.dialog.alert({ unsafeMessage: `
 			<div class="modal-popup">
@@ -133,7 +133,7 @@ if ($('#projects ul li:nth-child(5)'))	{
 			</div>
 		` });
 	});
-}
+}*/
 
 
 /*lightSlider
